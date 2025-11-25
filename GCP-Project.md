@@ -139,15 +139,17 @@ I navigated to **Network Services \> Load Balancing** and created an
 -   I assigned a new external IPv4 address.
 -   I mapped incoming traffic on port 80 to the backend service.
 
-Once deployed, I tested the Load Balancer using its external IP,
-confirming I could reach my nginx web page.
+Once deployed, I tested the Load Balancer using its external IP, confirming I could reach my nginx web page.
+- I got Errors from the first and second trials, the health check failed and i could not reach the Frontend from my local machine.
+- I reconfigured everything, made sure firewalls rules were correct and noticed http was not reaching to port 80.
 
 ------------------------------------------------------------------------
 
 ### I added screenshots
 ![alt text](images/loadbalancer.png)
 ![alt text](images/web.png)
-
+![alt text](images/error1.png)
+![alt text](images/error2.png)
 
 ------------------------------------------------------------------------
 

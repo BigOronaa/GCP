@@ -213,6 +213,7 @@ free -h
 
 ### I added Screenshots
 ![alt text](images/cpumonitoring.png)
+![alt text](images/sshspot.png)
 
 ##### **c) Committed Use Discounts (CUDs)**
 - My account uses free credits; actual CUDs cannot be purchased.
